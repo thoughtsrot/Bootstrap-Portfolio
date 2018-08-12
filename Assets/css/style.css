@@ -1,9 +1,9 @@
-* {
+/* * {
     border: 1px dotted red;
-}
+} */
 
 body {
-    background-image: url(Assets/images/pink-dust.png);
+    background-image: url(../images/pink-dust.png);
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
@@ -21,6 +21,13 @@ p {
     line-height: 2em;
     color: #777;
     margin: 0px 20px;
+}
+
+button {
+    background-color: #4aaaa5;
+    padding: 5px 20px;
+    margin: 10px 0px;
+    color: whitesmoke;
 }
 
 footer {
@@ -53,6 +60,19 @@ footer {
 
 .myImage {
     padding: 10px;
+}
+
+form {
+    padding: 0px 20px;
+    margin: 10px;
+    border: none;
+    color: #777;
+}
+
+#formButton {
+    background-color: #4aaaa5;
+    color: whitesmoke;
+    border: none
 }
 
 .textContain {
