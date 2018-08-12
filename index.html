@@ -46,8 +46,10 @@
         </h2>
         <div class="row d-md-inline">
 
-            <img class="myImage img-responsive float-left" src="Assets/images/background-blur-bokeh-762558.jpg" alt="lights and broken glass" width=200
-                height=200>
+            <!-- Solution for text-wrap && responsive image sizing: Put image (width 100%) in its own floated column (class= "col-12 col-md-4") then let first <p> tag have no column -->
+            <div class="col-12 col-md-5 float-left">
+                <img class="myImage img-responsive" src="Assets/images/background-blur-bokeh-762558.jpg" alt="lights and broken glass" width="100%">
+            </div>
 
             <p>
                 In the middle of the road there was a stone there was a stone in the middle of the road there was a stone in the middle of
@@ -59,12 +61,16 @@
                 was a stone there was a stone in the middle of the road in the middle of the road there was a stone.
             </p>
 
+
             <p>
                 In the middle of the road there was a stone there was a stone in the middle of the road there was a stone in the middle of
                 the road there was a stone. Never should I forget this event in the life of my fatigued retinas. Never should
                 I forget that in the middle of the road there was a stone there was a stone in the middle of the road in
                 the middle of the road there was a stone.
             </p>
+
+
+
             <p>
                 In the middle of the road there was a stone there was a stone in the middle of the road there was a stone in the middle of
                 the road there was a stone. Never should I forget this event in the life of my fatigued retinas. Never should
@@ -77,7 +83,7 @@
     </div>
 
     <footer class="fixed-bottom text-center m-auto py-3">
-            Peter Florek &copy;2018
+        Peter Florek &copy;2018
     </footer>
 
 </body>

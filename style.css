@@ -55,11 +55,8 @@ footer {
     padding: 10px;
 }
 
-.portContain {
+.textContain {
     position: relative;
-    /* width: 300px;
-    height: 200px; */
-    /* margin: 20px; */
 }
 
 .portText {
@@ -69,5 +66,11 @@ footer {
     color: white;
     background-color: #4aaaa5;
     bottom: 40px;
-    left: 0px;
+}
+
+.portImage {
+    min-width: 100%;
+    min-height: 100%;
+    max-width: 100%;
+    max-height: 100%;
 }
